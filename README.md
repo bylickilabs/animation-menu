@@ -1,1 +1,3 @@
-# animation-menu
+# Animation
+
+Script for RageMP
