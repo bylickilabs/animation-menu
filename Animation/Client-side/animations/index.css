@@ -1,0 +1,155 @@
+@font-face {
+    font-family: 'PR';
+    src: url('./fonts/Poppins-Regular.731a28a4.ttf');
+}
+#border{
+    margin-left: 70px;
+}
+#yoga{
+    position: absolute;
+    transform: scale(0.7);
+    margin-left: 720px;
+    margin-top: 40ch;
+    border-style: 2px solid rgba(0, 0, 0, 0.575);
+    background-color: rgba(0, 0, 0, 0.575);
+    
+}
+#yoga:hover{
+    position: absolute;
+    border: 5px solid green;
+    border-radius: 60px;
+}
+#title{
+    position: absolute;
+    margin-left: 860px;
+    margin-top: 4ch;
+    color: white;
+    font-family: 'PR';
+    font-size: 34px;
+}
+
+#push_ups{
+    position: absolute;
+    transform: scale(0.7);
+    margin-left: 620px;
+    margin-top: 40ch;
+    border-style: 2px solid rgba(0, 0, 0, 0.575);
+    background-color: rgba(0, 0, 0, 0.575);
+}
+#push_ups:hover{
+    position: absolute;
+    border: 5px solid green;
+    border-radius: 60px;
+}
+
+#smoking{
+    position: absolute;
+    transform: scale(0.7);
+    margin-left: 820px;
+    margin-top: 40ch;
+    border-style: 2px solid rgba(0, 0, 0, 0.575);
+    background-color: rgba(0, 0, 0, 0.575);
+}
+#smoking:hover{
+    position: absolute;
+    border: 5px solid green;
+    border-radius: 60px;
+}
+
+#coffee{
+    position: absolute;
+    transform: scale(0.7);
+    margin-left: 920px;
+    margin-top: 40ch;
+    border-style: 2px solid rgba(0, 0, 0, 0.575);
+    background-color: rgba(0, 0, 0, 0.575);
+}
+#coffee:hover{
+    position: absolute;
+    border: 5px solid green;
+    border-radius: 60px;
+}
+
+#weed{
+    position: absolute;
+    transform: scale(0.7);
+    margin-left: 1020px;
+    margin-top: 40ch;
+    border-style: 2px solid rgba(0, 0, 0, 0.575);
+    background-color: rgba(0, 0, 0, 0.575);
+}
+#weed:hover{
+    position: absolute;
+    border: 5px solid green;
+    border-radius: 60px;
+}
+
+#picnic{
+    position: absolute;
+    transform: scale(0.7);
+    margin-left: 1020px;
+    margin-top: 51ch;
+    border-style: 2px solid rgba(0, 0, 0, 0.575);
+    background-color: rgba(0, 0, 0, 0.575);
+}
+#picnic:hover{
+    position: absolute;
+    border: 5px solid green;
+    border-radius: 60px;
+}
+
+#security{
+    position: absolute;
+    transform: scale(0.7);
+    margin-left: 920px;
+    margin-top: 51ch;
+    border-style: 2px solid rgba(0, 0, 0, 0.575);
+    background-color: rgba(0, 0, 0, 0.575);
+}
+#security:hover{
+    position: absolute;
+    border: 5px solid green;
+    border-radius: 60px;
+}
+
+#wanderer{
+    position: absolute;
+    transform: scale(0.7);
+    margin-left: 820px;
+    margin-top: 51ch;
+    border-style: 2px solid rgba(0, 0, 0, 0.575);
+    background-color: rgba(0, 0, 0, 0.575);
+}
+#wanderer:hover{
+    position: absolute;
+    border: 5px solid green;
+    border-radius: 60px;
+}
+
+#lean{
+    position: absolute;
+    transform: scale(0.7);
+    margin-left: 720px;
+    margin-top: 51ch;
+    border-style: 2px solid rgba(0, 0, 0, 0.575);
+    background-color: rgba(0, 0, 0, 0.575);
+}
+#lean:hover{
+    position: absolute;
+    border: 5px solid green;
+    border-radius: 60px;
+}
+
+#sit_ups{
+    position: absolute;
+    transform: scale(0.7);
+    margin-left: 620px;
+    margin-top: 51ch;
+    border-style: 2px solid rgba(0, 0, 0, 0.575);
+    background-color: rgba(0, 0, 0, 0.575);
+}
+#sit_ups:hover{
+    position: absolute;
+    border: 5px solid green;
+    border-radius: 60px;
+}

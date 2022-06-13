@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div id="title">Szenarien</div>
+
+    <div id="border">
+        <img src="Animation.744a66a1.png" id="yoga" onclick="yoga()">
+    
+        <img src="Animation.744a66a1.png" id="push_ups" onclick="push()">
+    
+        <img src="Animation.744a66a1.png" id="smoking" onclick="smoke()">
+    
+        <img src="Animation.744a66a1.png" id="coffee" onclick="coffee()">
+    
+        <img src="Animation.744a66a1.png" id="weed" onclick="weed()">
+    
+        <img src="Animation.744a66a1.png" id="picnic" onclick="picnic()">
+    
+        <img src="Animation.744a66a1.png" id="security" onclick="security()">
+    
+        <img src="Animation.744a66a1.png" id="wanderer" onclick="hiker()">
+    
+        <img src="Animation.744a66a1.png" id="lean" onclick="lean()">
+    
+        <img src="Animation.744a66a1.png" id="sit_ups" onclick="situps()">
+    </div>
+    
+</body>
+</html>
+<script>
+    function yoga(){
+        mp.trigger('yoga')
+    }
+    function push(){
+        mp.trigger('push')
+    }
+    function smoke(){
+        mp.trigger('smoking')
+    }
+    function coffee(){
+        mp.trigger('coffee')
+    }
+    function weed(){
+        mp.trigger('weed')
+    }
+    function picnic(){
+        mp.trigger('picnic')
+    }
+    function security(){
+        mp.trigger('security')
+    }
+    function hiker(){
+        mp.trigger('hiker')
+    }
+    function lean(){
+        mp.trigger('lean')
+    }
+    function situps(){
+        mp.trigger('situps')
+    }
+
+
+    // Yoga
+    $('#text1').hide();
+    $("#yoga").on("mouseover", function () {
+     $('#title').text('Yoga')
+    });
+    $("#yoga").on("mouseleave", function () {
+     $('#text1').hide();
+     $('#title').text("Szenarien")
+    });
+
+    // Push Ups
+    $("#push_ups").on("mouseover", function () {
+     $('#title').text('Push Ups')
+    });
+    $("#push_ups").on("mouseleave", function () {
+     $('#text1').hide();
+     $('#title').text("Szenarien")
+    });
+
+    // Smoking
+    $("#smoking").on("mouseover", function () {
+     $('#title').text('Rauchen')
+    });
+    $("#smoking").on("mouseleave", function () {
+     $('#text1').hide();
+     $('#title').text("Szenarien")
+    });
+
+    // Coffee
+    $("#coffee").on("mouseover", function () {
+     $('#title').text('Caffé')
+    });
+    $("#coffee").on("mouseleave", function () {
+     $('#text1').hide();
+     $('#title').text("Szenarien")
+    });
+
+    // Drug Dealer
+    $("#weed").on("mouseover", function () {
+     $('#title').text('Weed rauchen')
+    });
+    $("#weed").on("mouseleave", function () {
+     $('#text1').hide();
+     $('#title').text("Szenarien")
+    });
+
+    // Picnic
+    $("#picnic").on("mouseover", function () {
+     $('#title').text('Picknick')
+    });
+    $("#picnic").on("mouseleave", function () {
+     $('#text1').hide();
+     $('#title').text("Szenarien")
+    });
+
+    // Security
+    $("#security").on("mouseover", function () {
+     $('#title').text('Security')
+    });
+    $("#security").on("mouseleave", function () {
+     $('#text1').hide();
+     $('#title').text("Szenarien")
+    });
+
+    // Hiker
+    $("#wanderer").on("mouseover", function () {
+     $('#title').text('Wanderer')
+    });
+    $("#wanderer").on("mouseleave", function () {
+     $('#text1').hide();
+     $('#title').text("Szenarien")
+    });
+
+    // Lean
+    $("#lean").on("mouseover", function () {
+     $('#title').text('Anlehnen')
+    });
+    $("#lean").on("mouseleave", function () {
+     $('#text1').hide();
+     $('#title').text("Szenarien")
+    });
+
+    // Sit Ups
+    $("#sit_ups").on("mouseover", function () {
+     $('#title').text('Sit Ups')
+    });
+    $("#sit_ups").on("mouseleave", function () {
+     $('#text1').hide();
+     $('#title').text("Szenarien")
+    });
+</script>
